@@ -36,7 +36,7 @@ function displayPics(){
     }
   }
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
-  // PUT YOUR RESPONSE IN THIS COMMENT: we got an error because 'const' was locally scoped inside the function and only lives in displayPics. The console log was outside of the function.
+  // PUT YOUR RESPONSE IN THIS COMMENT: we got an error because the console log that was invoked outside of the function displayPics. 'const rando' was locally scoped inside the function and only lives in displayPics, thats why it is why it works now when the console log is inside of the function.
 
   console.log(viewed);
 
